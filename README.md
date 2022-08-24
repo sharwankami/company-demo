@@ -40,8 +40,6 @@ Create middlewares
 php artisan make:middleware EnsureCompanyExists
 ```
 
-
-
 Create controller 
 
 ```shell
@@ -52,5 +50,11 @@ Create views
 
 Create input component
 ```shell
+php artisan make:component Forms/Input
+```
 
+run npm
+```shell
+npm i bootstrap -S
+npm i
 ```
