@@ -60,7 +60,7 @@ class CompanyController extends Controller
     {
         $request->validate([
             'name'=>'required',
-            'organization_number'=>['required',Rule::unique('company')->ignore($companyId)],
+            'organization_number'=>['numeric', 'required',Rule::unique('company')->ignore($companyId)],
             'country'=>'required',
             'email'=>'required|email'
         ]);
