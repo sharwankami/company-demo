@@ -84,3 +84,7 @@ Install bootstrap ui and mix
 php artisan ui bootstrap
 npm i laravel-mix -D
 ```
+
+Some Exception handling
+
+register some exception handing code in `Exception\Handler` class.
