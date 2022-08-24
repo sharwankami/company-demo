@@ -77,3 +77,10 @@ Register the view component by adding
 Vue.component('companylist', require('./components/CompanyList.vue').default);
 ```
 in `resources/js/app.js`
+
+
+Install bootstrap ui and mix
+```shell
+php artisan ui bootstrap
+npm i laravel-mix -D
+```
