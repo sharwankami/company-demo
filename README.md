@@ -32,4 +32,25 @@ Before running the application,
 please make sure database credentials are updated in `.env` file 
 and migration/seeding is done
 
+Create routes for both web and api
 
+
+Create middlewares 
+```shell
+php artisan make:middleware EnsureCompanyExists
+```
+
+
+
+Create controller 
+
+```shell
+php artisan make:controller CompanyController --resource --model=Company
+```
+
+Create views
+
+Create input component
+```shell
+
+```
