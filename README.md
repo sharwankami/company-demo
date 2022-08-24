@@ -69,3 +69,11 @@ php artisan ui vue
 npm i
 npm run dev
 ```
+
+Create vue components in `resources/js/components`
+
+Register the view component by adding 
+```shell
+Vue.component('companylist', require('./components/CompanyList.vue').default);
+```
+in `resources/js/app.js`
