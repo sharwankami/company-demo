@@ -28,9 +28,9 @@ php artisan make:seeder CompanySeeder
 php artisan db:seed --class=CompanySeeder
 ```
 
-Before running the application, 
-please make sure database credentials are updated in `.env` file 
-and migration/seeding is done
+>NOTE: Before running the application, 
+>please make sure database credentials are updated in `.env` file 
+>and migration/seeding is done, also need to install the npm components and transpile assets
 
 Create routes for both web and api
 
