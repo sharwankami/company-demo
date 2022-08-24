@@ -52,6 +52,7 @@ Create input component
 ```shell
 php artisan make:component Forms/Input
 ```
+also add `Blade::component('form-input', Input::class);` in boot() method of AppServiceProvider
 
 run npm
 ```shell
@@ -60,3 +61,11 @@ npm i
 ```
 
 add utils functions for country and 
+
+setup vue
+```shell
+composer require laravel/ui
+php artisan ui vue
+npm i
+npm run dev
+```
