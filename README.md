@@ -14,6 +14,22 @@ mysql> create database digitive;
 Create migration
 ```shell
 php artisan make:migration create_company_table
+php artisan migrate
 ```
 
-Before running the application, please make sure database credentials are updated in `.env` file and migration is `run`
+Create model
+```shell
+php artisan make:model Company
+```
+
+Create seeder for testing
+```shell
+php artisan make:seeder CompanySeeder
+php artisan db:seed --class=CompanySeeder
+```
+
+Before running the application, 
+please make sure database credentials are updated in `.env` file 
+and migration/seeding is done
+
+
